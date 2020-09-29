@@ -1,0 +1,35 @@
+//atividade01
+#include <stdio.h>
+#include <stdlib.h>
+#define DESC 0.9;
+int main(void){
+ int total=0;
+ int requisicoes =0;
+ float preco=1.15;
+ printf("quantidade de requisicoes do mes?");
+ scanf("%d",&requisicoes);
+ if(total <= 10000)
+  printf("sem o desconto o preco foi de:%d",total+1);
+ if(total > 10000){
+  total=requisicoes*preco*DESC;
+  printf("\no valor total com desconto foi de:%d",total+1);
+   }
+}
+ 
+ //atividade02
+#include <stdio.h>
+#include <stdlib.h>
+int main(void){
+ int b=0;
+ printf("escreva o valor que deseja:");
+ scanf("%d",&b);
+ int c=0;
+ printf("escreva o segundo valor que deseja:");
+ scanf("%d",&b);
+ if (b>c){
+  printf("\no o maior valor foi:%d",b);
+ }
+ if (c>b){
+    printf("\no o maior valor foi:%d",c);
+ }
+}
